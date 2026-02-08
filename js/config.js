@@ -1,7 +1,7 @@
 // --- KONFIGURASI ---
 const CONFIG = {
     USE_API: true, // Pastikan ini true untuk connect ke Node.js/PostgreSQL
-    API_URL: 'http://localhost:3000/api',
+    API_URL: "https://landipagekonservasisulawesiback-production.up.railway.app",
     STORAGE_KEY: 'qwerty123'
 };
 
@@ -13,4 +13,5 @@ function readFile(file) {
         reader.onerror = reject;
         reader.readAsDataURL(file);
     });
+
 }
